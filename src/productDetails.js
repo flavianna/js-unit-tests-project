@@ -27,17 +27,17 @@
   Escreva pelo menos cinco testes para essa função no arquivo tests/productDetails.js para garantir que a implementação de productDetails está correta.
 */
 
-const productDetails = (firstProduct, secondProduct) => [
+const productDetails = (primeiroProduto, segundoProduto) => [
   {
-    name: firstProduct,
+    name: primeiroProduto,
     details: {
-      productId: `${firstProduct}123`,
+      productId: `${primeiroProduto}123`,
     },
   },
   {
-    name: secondProduct,
+    name: segundoProduto,
     details: {
-      productId: `${secondProduct}123`,
+      productId: `${segundoProduto}123`,
     },
   },
 ];
